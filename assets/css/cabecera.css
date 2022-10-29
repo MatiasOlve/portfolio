@@ -1,0 +1,38 @@
+.cabecera{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.logo{
+    display: flex;
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+    align-items: center;
+}
+
+.contacto{
+    display: flex;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.contacto__btn{
+    background-color: hsl(212, 70%, 38%);
+    color: white;
+    border: none;
+    border-radius: 1em;
+    font-size: 1rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.contacto__btn:hover{
+    transform: scale(1.10);
+}
+

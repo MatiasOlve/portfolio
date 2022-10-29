@@ -1,0 +1,19 @@
+.sobreMi{
+    background-color: rgb(210, 218, 255);
+    margin: auto;
+}
+
+.sobreMi__contenedor{
+    margin: 1.25rem .8rem 0 .8rem;
+}
+
+.sobreMi__titulo{
+    padding-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.sobreMi__contenido{
+    font-size: 1.15rem;
+    justify-content: center;
+    margin-top: 1rem;
+}

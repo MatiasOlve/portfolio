@@ -1,0 +1,71 @@
+.presentacion{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    margin: auto 0.5rem;
+}
+
+.presentacion__imagen{
+    margin: .5rem auto;
+    height: 300px;
+    width: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 100%;
+    background: url('../img/perfil1.jpg');
+}
+
+.presentacion__titulo{
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+ 
+}
+
+.presentacion__contenido{
+    margin-top: 1rem;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.25rem;
+}
+
+.presentacion__lista{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.085rem;
+    font-weight: bold;
+}
+
+.presentacion__lista__link a{
+    text-decoration: none;
+    color: black;
+}
+
+.presentacion__lista__link:hover{
+    text-decoration: underline;
+}
+
+@media screen and (min-width: 768px) {
+    .presentacion{
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .presentacion__titulo{
+        font-size: 2.5rem;
+    }
+
+    .presentacion__container{
+        width: 70%;
+        order: -1;
+    }
+
+    .presentacion__lista{
+        justify-content: space-around;
+        font-size: 1.25rem;
+    }
+}
